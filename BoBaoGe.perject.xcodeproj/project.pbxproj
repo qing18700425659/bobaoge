@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8B575A1D4C636D00624890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57591D4C636D00624890 /* main.m */; };
+		AB8B575D1D4C636D00624890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B575C1D4C636D00624890 /* AppDelegate.m */; };
+		AB8B57601D4C636D00624890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B575F1D4C636D00624890 /* ViewController.m */; };
+		AB8B57631D4C636D00624890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8B57611D4C636D00624890 /* Main.storyboard */; };
+		AB8B57661D4C636D00624890 /* BoBaoGe_perject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57641D4C636D00624890 /* BoBaoGe_perject.xcdatamodeld */; };
+		AB8B57681D4C636D00624890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8B57671D4C636D00624890 /* Assets.xcassets */; };
+		AB8B576B1D4C636D00624890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8B57691D4C636D00624890 /* LaunchScreen.storyboard */; };
+		AB8B57761D4C636D00624890 /* BoBaoGe_perjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57751D4C636D00624890 /* BoBaoGe_perjectTests.m */; };
+		AB8B57811D4C636D00624890 /* BoBaoGe_perjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57801D4C636D00624890 /* BoBaoGe_perjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB8B57721D4C636D00624890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8B574D1D4C636D00624890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8B57541D4C636D00624890;
+			remoteInfo = BoBaoGe.perject;
+		};
+		AB8B577D1D4C636D00624890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8B574D1D4C636D00624890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8B57541D4C636D00624890;
+			remoteInfo = BoBaoGe.perject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB8B57551D4C636D00624890 /* BoBaoGe.perject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoBaoGe.perject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8B57591D4C636D00624890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB8B575B1D4C636D00624890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB8B575C1D4C636D00624890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB8B575E1D4C636D00624890 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB8B575F1D4C636D00624890 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB8B57621D4C636D00624890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8B57651D4C636D00624890 /* BoBaoGe_perject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoBaoGe_perject.xcdatamodel; sourceTree = "<group>"; };
+		AB8B57671D4C636D00624890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8B576A1D4C636D00624890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB8B576C1D4C636D00624890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8B57711D4C636D00624890 /* BoBaoGe.perjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoBaoGe.perjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8B57751D4C636D00624890 /* BoBaoGe_perjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoBaoGe_perjectTests.m; sourceTree = "<group>"; };
+		AB8B57771D4C636D00624890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8B577C1D4C636D00624890 /* BoBaoGe.perjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoBaoGe.perjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8B57801D4C636D00624890 /* BoBaoGe_perjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoBaoGe_perjectUITests.m; sourceTree = "<group>"; };
+		AB8B57821D4C636D00624890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8B57521D4C636D00624890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8B576E1D4C636D00624890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8B57791D4C636D00624890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8B574C1D4C636D00624890 = {
+			isa = PBXGroup;
+			children = (
+				AB8B57571D4C636D00624890 /* BoBaoGe.perject */,
+				AB8B57741D4C636D00624890 /* BoBaoGe.perjectTests */,
+				AB8B577F1D4C636D00624890 /* BoBaoGe.perjectUITests */,
+				AB8B57561D4C636D00624890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8B57561D4C636D00624890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57551D4C636D00624890 /* BoBaoGe.perject.app */,
+				AB8B57711D4C636D00624890 /* BoBaoGe.perjectTests.xctest */,
+				AB8B577C1D4C636D00624890 /* BoBaoGe.perjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8B57571D4C636D00624890 /* BoBaoGe.perject */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B575B1D4C636D00624890 /* AppDelegate.h */,
+				AB8B575C1D4C636D00624890 /* AppDelegate.m */,
+				AB8B575E1D4C636D00624890 /* ViewController.h */,
+				AB8B575F1D4C636D00624890 /* ViewController.m */,
+				AB8B57611D4C636D00624890 /* Main.storyboard */,
+				AB8B57671D4C636D00624890 /* Assets.xcassets */,
+				AB8B57691D4C636D00624890 /* LaunchScreen.storyboard */,
+				AB8B576C1D4C636D00624890 /* Info.plist */,
+				AB8B57641D4C636D00624890 /* BoBaoGe_perject.xcdatamodeld */,
+				AB8B57581D4C636D00624890 /* Supporting Files */,
+			);
+			path = BoBaoGe.perject;
+			sourceTree = "<group>";
+		};
+		AB8B57581D4C636D00624890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57591D4C636D00624890 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB8B57741D4C636D00624890 /* BoBaoGe.perjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57751D4C636D00624890 /* BoBaoGe_perjectTests.m */,
+				AB8B57771D4C636D00624890 /* Info.plist */,
+			);
+			path = BoBaoGe.perjectTests;
+			sourceTree = "<group>";
+		};
+		AB8B577F1D4C636D00624890 /* BoBaoGe.perjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57801D4C636D00624890 /* BoBaoGe_perjectUITests.m */,
+				AB8B57821D4C636D00624890 /* Info.plist */,
+			);
+			path = BoBaoGe.perjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8B57541D4C636D00624890 /* BoBaoGe.perject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8B57851D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perject" */;
+			buildPhases = (
+				AB8B57511D4C636D00624890 /* Sources */,
+				AB8B57521D4C636D00624890 /* Frameworks */,
+				AB8B57531D4C636D00624890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoBaoGe.perject;
+			productName = BoBaoGe.perject;
+			productReference = AB8B57551D4C636D00624890 /* BoBaoGe.perject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB8B57701D4C636D00624890 /* BoBaoGe.perjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8B57881D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectTests" */;
+			buildPhases = (
+				AB8B576D1D4C636D00624890 /* Sources */,
+				AB8B576E1D4C636D00624890 /* Frameworks */,
+				AB8B576F1D4C636D00624890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8B57731D4C636D00624890 /* PBXTargetDependency */,
+			);
+			name = BoBaoGe.perjectTests;
+			productName = BoBaoGe.perjectTests;
+			productReference = AB8B57711D4C636D00624890 /* BoBaoGe.perjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB8B577B1D4C636D00624890 /* BoBaoGe.perjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8B578B1D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectUITests" */;
+			buildPhases = (
+				AB8B57781D4C636D00624890 /* Sources */,
+				AB8B57791D4C636D00624890 /* Frameworks */,
+				AB8B577A1D4C636D00624890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8B577E1D4C636D00624890 /* PBXTargetDependency */,
+			);
+			name = BoBaoGe.perjectUITests;
+			productName = BoBaoGe.perjectUITests;
+			productReference = AB8B577C1D4C636D00624890 /* BoBaoGe.perjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8B574D1D4C636D00624890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "DC-002";
+				TargetAttributes = {
+					AB8B57541D4C636D00624890 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AB8B57701D4C636D00624890 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB8B57541D4C636D00624890;
+					};
+					AB8B577B1D4C636D00624890 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB8B57541D4C636D00624890;
+					};
+				};
+			};
+			buildConfigurationList = AB8B57501D4C636D00624890 /* Build configuration list for PBXProject "BoBaoGe.perject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8B574C1D4C636D00624890;
+			productRefGroup = AB8B57561D4C636D00624890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8B57541D4C636D00624890 /* BoBaoGe.perject */,
+				AB8B57701D4C636D00624890 /* BoBaoGe.perjectTests */,
+				AB8B577B1D4C636D00624890 /* BoBaoGe.perjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8B57531D4C636D00624890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8B576B1D4C636D00624890 /* LaunchScreen.storyboard in Resources */,
+				AB8B57681D4C636D00624890 /* Assets.xcassets in Resources */,
+				AB8B57631D4C636D00624890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8B576F1D4C636D00624890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8B577A1D4C636D00624890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8B57511D4C636D00624890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8B57601D4C636D00624890 /* ViewController.m in Sources */,
+				AB8B575D1D4C636D00624890 /* AppDelegate.m in Sources */,
+				AB8B575A1D4C636D00624890 /* main.m in Sources */,
+				AB8B57661D4C636D00624890 /* BoBaoGe_perject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8B576D1D4C636D00624890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8B57761D4C636D00624890 /* BoBaoGe_perjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8B57781D4C636D00624890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8B57811D4C636D00624890 /* BoBaoGe_perjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB8B57731D4C636D00624890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8B57541D4C636D00624890 /* BoBaoGe.perject */;
+			targetProxy = AB8B57721D4C636D00624890 /* PBXContainerItemProxy */;
+		};
+		AB8B577E1D4C636D00624890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8B57541D4C636D00624890 /* BoBaoGe.perject */;
+			targetProxy = AB8B577D1D4C636D00624890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB8B57611D4C636D00624890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8B57621D4C636D00624890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8B57691D4C636D00624890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8B576A1D4C636D00624890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8B57831D4C636D00624890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8B57841D4C636D00624890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8B57861D4C636D00624890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoBaoGe.perject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB8B57871D4C636D00624890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoBaoGe.perject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB8B57891D4C636D00624890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoBaoGe.perjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoBaoGe.perject.app/BoBaoGe.perject";
+			};
+			name = Debug;
+		};
+		AB8B578A1D4C636D00624890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoBaoGe.perjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoBaoGe.perject.app/BoBaoGe.perject";
+			};
+			name = Release;
+		};
+		AB8B578C1D4C636D00624890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoBaoGe.perjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BoBaoGe.perject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB8B578D1D4C636D00624890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoBaoGe.perjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BoBaoGe.perject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8B57501D4C636D00624890 /* Build configuration list for PBXProject "BoBaoGe.perject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8B57831D4C636D00624890 /* Debug */,
+				AB8B57841D4C636D00624890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8B57851D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8B57861D4C636D00624890 /* Debug */,
+				AB8B57871D4C636D00624890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB8B57881D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8B57891D4C636D00624890 /* Debug */,
+				AB8B578A1D4C636D00624890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB8B578B1D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8B578C1D4C636D00624890 /* Debug */,
+				AB8B578D1D4C636D00624890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB8B57641D4C636D00624890 /* BoBaoGe_perject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB8B57651D4C636D00624890 /* BoBaoGe_perject.xcdatamodel */,
+			);
+			currentVersion = AB8B57651D4C636D00624890 /* BoBaoGe_perject.xcdatamodel */;
+			path = BoBaoGe_perject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB8B574D1D4C636D00624890 /* Project object */;
+}
