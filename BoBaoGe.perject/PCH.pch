@@ -1,0 +1,37 @@
+//
+//  PCH.pch
+//  BoBaoGe.perject
+//
+//  Created by DC-002 on 16/8/1.
+//  Copyright © 2016年 DC-002. All rights reserved.
+//
+
+#ifndef PCH_pch
+#define PCH_pch
+#import "Issue.h"
+#import "CZPickerView.h"
+#import "SendMessageSpm.h"
+#import "GoodsMany.h"
+#import "Sort.h"
+#import "jumpViewController.h"
+#import "GoodsManyViewController.h"
+#import "ViewController.h"
+
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "MJExtension.h"
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "TZImagePickerController.h"
+#import "TZImageManager.h"
+#import <AddressBook/AddressBook.h>
+#import <CoreLocation/CoreLocation.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//获取商圈模块
+#define http_getGoodsMany @"http://172.16.3.237/broadcast/?action=zone&func=searchZoneList"
+//即时消息中  分类搜索模块
+#define http_getSortSourch @"http://172.16.3.237/broadcast/?action=type&func=getTypeList"
+//即时消息中   发布消息页面
+#define http_getSendMessage @"http://172.16.3.237/broadcast/?action=message&func=issueMessage"
+#endif /* PCH_pch */

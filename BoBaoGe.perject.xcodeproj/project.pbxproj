@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A485A0E5620A01033F69F4D /* libPods-BoBaoGe.perjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 311311969F29E89ED89B1D50 /* libPods-BoBaoGe.perjectUITests.a */; };
+		6B97C42F6AE5B2E1C9FA6BBB /* libPods-BoBaoGe.perjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8B122969457EB0F2489E6A /* libPods-BoBaoGe.perjectTests.a */; };
+		9FBFD6F5F3765E4F9EB8863C /* libPods-BoBaoGe.perject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D0CC112A635EC7A266A25B /* libPods-BoBaoGe.perject.a */; };
+		AB47CEB61D531B46000816C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47CEB51D531B46000816C4 /* CoreLocation.framework */; };
+		AB47CEB81D533C2B000816C4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47CEB71D533C2B000816C4 /* AddressBook.framework */; };
 		AB8B575A1D4C636D00624890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57591D4C636D00624890 /* main.m */; };
 		AB8B575D1D4C636D00624890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B575C1D4C636D00624890 /* AppDelegate.m */; };
 		AB8B57601D4C636D00624890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B575F1D4C636D00624890 /* ViewController.m */; };
@@ -16,6 +21,12 @@
 		AB8B576B1D4C636D00624890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8B57691D4C636D00624890 /* LaunchScreen.storyboard */; };
 		AB8B57761D4C636D00624890 /* BoBaoGe_perjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57751D4C636D00624890 /* BoBaoGe_perjectTests.m */; };
 		AB8B57811D4C636D00624890 /* BoBaoGe_perjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57801D4C636D00624890 /* BoBaoGe_perjectUITests.m */; };
+		AB8B57D91D4C879700624890 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57D81D4C879700624890 /* Sort.m */; };
+		AB8B57DC1D4C9C1100624890 /* Issue.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B57DB1D4C9C1100624890 /* Issue.m */; };
+		ABB0B72B1D5096B300ED3981 /* SendMessageSpm.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0B72A1D5096B300ED3981 /* SendMessageSpm.m */; };
+		ABB5E8621D4EF86C0006714D /* GoodsMany.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5E8611D4EF86C0006714D /* GoodsMany.m */; };
+		ABB5E8651D4EF89B0006714D /* GoodsManyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5E8641D4EF89B0006714D /* GoodsManyViewController.m */; };
+		ABB5E86A1D4F75CE0006714D /* jumpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5E8691D4F75CE0006714D /* jumpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311311969F29E89ED89B1D50 /* libPods-BoBaoGe.perjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoBaoGe.perjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D0CC112A635EC7A266A25B /* libPods-BoBaoGe.perject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoBaoGe.perject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DDCAA025DE47698CBD886A /* Pods-BoBaoGe.perjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoBaoGe.perjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoBaoGe.perjectUITests/Pods-BoBaoGe.perjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FCC58899702E937B367B929 /* Pods-BoBaoGe.perjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoBaoGe.perjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoBaoGe.perjectUITests/Pods-BoBaoGe.perjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		868A7DCD602F543FECAC4A32 /* Pods-BoBaoGe.perjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoBaoGe.perjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoBaoGe.perjectTests/Pods-BoBaoGe.perjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8B122969457EB0F2489E6A /* libPods-BoBaoGe.perjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoBaoGe.perjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47CEB51D531B46000816C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB47CEB71D533C2B000816C4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		AB8B57551D4C636D00624890 /* BoBaoGe.perject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoBaoGe.perject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8B57591D4C636D00624890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8B575B1D4C636D00624890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +72,22 @@
 		AB8B577C1D4C636D00624890 /* BoBaoGe.perjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoBaoGe.perjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8B57801D4C636D00624890 /* BoBaoGe_perjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoBaoGe_perjectUITests.m; sourceTree = "<group>"; };
 		AB8B57821D4C636D00624890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8B57D71D4C879700624890 /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		AB8B57D81D4C879700624890 /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		AB8B57DA1D4C9C1100624890 /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
+		AB8B57DB1D4C9C1100624890 /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
+		ABB0B7291D5096B300ED3981 /* SendMessageSpm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageSpm.h; sourceTree = "<group>"; };
+		ABB0B72A1D5096B300ED3981 /* SendMessageSpm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageSpm.m; sourceTree = "<group>"; };
+		ABB5E8601D4EF86C0006714D /* GoodsMany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsMany.h; sourceTree = "<group>"; };
+		ABB5E8611D4EF86C0006714D /* GoodsMany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsMany.m; sourceTree = "<group>"; };
+		ABB5E8631D4EF89B0006714D /* GoodsManyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsManyViewController.h; sourceTree = "<group>"; };
+		ABB5E8641D4EF89B0006714D /* GoodsManyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsManyViewController.m; sourceTree = "<group>"; };
+		ABB5E8671D4F0C0C0006714D /* PCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
+		ABB5E8681D4F75CE0006714D /* jumpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jumpViewController.h; sourceTree = "<group>"; };
+		ABB5E8691D4F75CE0006714D /* jumpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jumpViewController.m; sourceTree = "<group>"; };
+		B2BD1C00E2E473D6F9EFC87A /* Pods-BoBaoGe.perject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoBaoGe.perject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoBaoGe.perject/Pods-BoBaoGe.perject.release.xcconfig"; sourceTree = "<group>"; };
+		C111985B60DC7581369DBDAF /* Pods-BoBaoGe.perject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoBaoGe.perject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoBaoGe.perject/Pods-BoBaoGe.perject.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C8FC2DA4CE8358082AB24F /* Pods-BoBaoGe.perjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoBaoGe.perjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoBaoGe.perjectTests/Pods-BoBaoGe.perjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB47CEB81D533C2B000816C4 /* AddressBook.framework in Frameworks */,
+				AB47CEB61D531B46000816C4 /* CoreLocation.framework in Frameworks */,
+				9FBFD6F5F3765E4F9EB8863C /* libPods-BoBaoGe.perject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B97C42F6AE5B2E1C9FA6BBB /* libPods-BoBaoGe.perjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +113,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A485A0E5620A01033F69F4D /* libPods-BoBaoGe.perjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CFF4D656530DA3188DAC21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CEB71D533C2B000816C4 /* AddressBook.framework */,
+				AB47CEB51D531B46000816C4 /* CoreLocation.framework */,
+				39D0CC112A635EC7A266A25B /* libPods-BoBaoGe.perject.a */,
+				9A8B122969457EB0F2489E6A /* libPods-BoBaoGe.perjectTests.a */,
+				311311969F29E89ED89B1D50 /* libPods-BoBaoGe.perjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85EE72AB1D326DD2611EE7B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C111985B60DC7581369DBDAF /* Pods-BoBaoGe.perject.debug.xcconfig */,
+				B2BD1C00E2E473D6F9EFC87A /* Pods-BoBaoGe.perject.release.xcconfig */,
+				868A7DCD602F543FECAC4A32 /* Pods-BoBaoGe.perjectTests.debug.xcconfig */,
+				F7C8FC2DA4CE8358082AB24F /* Pods-BoBaoGe.perjectTests.release.xcconfig */,
+				48DDCAA025DE47698CBD886A /* Pods-BoBaoGe.perjectUITests.debug.xcconfig */,
+				6FCC58899702E937B367B929 /* Pods-BoBaoGe.perjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB8B574C1D4C636D00624890 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +152,8 @@
 				AB8B57741D4C636D00624890 /* BoBaoGe.perjectTests */,
 				AB8B577F1D4C636D00624890 /* BoBaoGe.perjectUITests */,
 				AB8B57561D4C636D00624890 /* Products */,
+				85EE72AB1D326DD2611EE7B5 /* Pods */,
+				0CFF4D656530DA3188DAC21E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +170,10 @@
 		AB8B57571D4C636D00624890 /* BoBaoGe.perject */ = {
 			isa = PBXGroup;
 			children = (
+				AB8B57D21D4C873800624890 /* MVC */,
 				AB8B575B1D4C636D00624890 /* AppDelegate.h */,
 				AB8B575C1D4C636D00624890 /* AppDelegate.m */,
-				AB8B575E1D4C636D00624890 /* ViewController.h */,
-				AB8B575F1D4C636D00624890 /* ViewController.m */,
-				AB8B57611D4C636D00624890 /* Main.storyboard */,
+				ABB5E8671D4F0C0C0006714D /* PCH.pch */,
 				AB8B57671D4C636D00624890 /* Assets.xcassets */,
 				AB8B57691D4C636D00624890 /* LaunchScreen.storyboard */,
 				AB8B576C1D4C636D00624890 /* Info.plist */,
@@ -143,6 +209,132 @@
 			path = BoBaoGe.perjectUITests;
 			sourceTree = "<group>";
 		};
+		AB8B57CC1D4C869C00624890 /* 即时消息 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0B71E1D50232800ED3981 /* 首页 */,
+				AB8B57D11D4C86EE00624890 /* 发布 */,
+				AB8B57D01D4C86E300624890 /* 分类搜索 */,
+			);
+			name = "即时消息";
+			sourceTree = "<group>";
+		};
+		AB8B57CD1D4C86A900624890 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "消息";
+			sourceTree = "<group>";
+		};
+		AB8B57CE1D4C86B600624890 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
+		AB8B57CF1D4C86C000624890 /* 商圈 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5E8631D4EF89B0006714D /* GoodsManyViewController.h */,
+				ABB5E8641D4EF89B0006714D /* GoodsManyViewController.m */,
+			);
+			name = "商圈";
+			sourceTree = "<group>";
+		};
+		AB8B57D01D4C86E300624890 /* 分类搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B575E1D4C636D00624890 /* ViewController.h */,
+				AB8B575F1D4C636D00624890 /* ViewController.m */,
+			);
+			name = "分类搜索";
+			sourceTree = "<group>";
+		};
+		AB8B57D11D4C86EE00624890 /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57DA1D4C9C1100624890 /* Issue.h */,
+				AB8B57DB1D4C9C1100624890 /* Issue.m */,
+			);
+			name = "发布";
+			sourceTree = "<group>";
+		};
+		AB8B57D21D4C873800624890 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57D51D4C874F00624890 /* controller */,
+				AB8B57D41D4C874900624890 /* view */,
+				AB8B57D31D4C874100624890 /* model */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		AB8B57D31D4C874100624890 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0B7221D50955F00ED3981 /* 发布的spm码 */,
+				ABB5E85F1D4EF8390006714D /* 商圈模块 */,
+				AB8B57D61D4C876E00624890 /* 分类数据 */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		AB8B57D41D4C874900624890 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57611D4C636D00624890 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		AB8B57D51D4C874F00624890 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57CC1D4C869C00624890 /* 即时消息 */,
+				AB8B57CD1D4C86A900624890 /* 消息 */,
+				AB8B57CE1D4C86B600624890 /* 我 */,
+				AB8B57CF1D4C86C000624890 /* 商圈 */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		AB8B57D61D4C876E00624890 /* 分类数据 */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B57D71D4C879700624890 /* Sort.h */,
+				AB8B57D81D4C879700624890 /* Sort.m */,
+			);
+			name = "分类数据";
+			sourceTree = "<group>";
+		};
+		ABB0B71E1D50232800ED3981 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5E8681D4F75CE0006714D /* jumpViewController.h */,
+				ABB5E8691D4F75CE0006714D /* jumpViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		ABB0B7221D50955F00ED3981 /* 发布的spm码 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0B7291D5096B300ED3981 /* SendMessageSpm.h */,
+				ABB0B72A1D5096B300ED3981 /* SendMessageSpm.m */,
+			);
+			name = "发布的spm码";
+			sourceTree = "<group>";
+		};
+		ABB5E85F1D4EF8390006714D /* 商圈模块 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5E8601D4EF86C0006714D /* GoodsMany.h */,
+				ABB5E8611D4EF86C0006714D /* GoodsMany.m */,
+			);
+			name = "商圈模块";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB8B57851D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perject" */;
 			buildPhases = (
+				F58385046B1BB3ED92494460 /* 📦 Check Pods Manifest.lock */,
 				AB8B57511D4C636D00624890 /* Sources */,
 				AB8B57521D4C636D00624890 /* Frameworks */,
 				AB8B57531D4C636D00624890 /* Resources */,
+				5AABEBC260A3B0F3E25DF6F1 /* 📦 Embed Pods Frameworks */,
+				5F2BB0CB5418E96BC7574B7B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB8B57881D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectTests" */;
 			buildPhases = (
+				D44D4E8A4C94063B00EE0A28 /* 📦 Check Pods Manifest.lock */,
 				AB8B576D1D4C636D00624890 /* Sources */,
 				AB8B576E1D4C636D00624890 /* Frameworks */,
 				AB8B576F1D4C636D00624890 /* Resources */,
+				357B8472D0629BC78F47DE5E /* 📦 Embed Pods Frameworks */,
+				C622A0DCDA9C18BD4D33BB53 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +383,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB8B578B1D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectUITests" */;
 			buildPhases = (
+				BD6F4486A5B7843502103A5F /* 📦 Check Pods Manifest.lock */,
 				AB8B57781D4C636D00624890 /* Sources */,
 				AB8B57791D4C636D00624890 /* Frameworks */,
 				AB8B577A1D4C636D00624890 /* Resources */,
+				F3D26E745BC8135FB60FCCB5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,15 +468,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		357B8472D0629BC78F47DE5E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoBaoGe.perjectTests/Pods-BoBaoGe.perjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AABEBC260A3B0F3E25DF6F1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoBaoGe.perject/Pods-BoBaoGe.perject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2BB0CB5418E96BC7574B7B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoBaoGe.perject/Pods-BoBaoGe.perject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6F4486A5B7843502103A5F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C622A0DCDA9C18BD4D33BB53 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoBaoGe.perjectTests/Pods-BoBaoGe.perjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44D4E8A4C94063B00EE0A28 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D26E745BC8135FB60FCCB5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoBaoGe.perjectUITests/Pods-BoBaoGe.perjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58385046B1BB3ED92494460 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB8B57511D4C636D00624890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB5E86A1D4F75CE0006714D /* jumpViewController.m in Sources */,
+				ABB0B72B1D5096B300ED3981 /* SendMessageSpm.m in Sources */,
+				AB8B57D91D4C879700624890 /* Sort.m in Sources */,
 				AB8B57601D4C636D00624890 /* ViewController.m in Sources */,
 				AB8B575D1D4C636D00624890 /* AppDelegate.m in Sources */,
+				AB8B57DC1D4C9C1100624890 /* Issue.m in Sources */,
+				ABB5E8651D4EF89B0006714D /* GoodsManyViewController.m in Sources */,
 				AB8B575A1D4C636D00624890 /* main.m in Sources */,
 				AB8B57661D4C636D00624890 /* BoBaoGe_perject.xcdatamodeld in Sources */,
+				ABB5E8621D4EF86C0006714D /* GoodsMany.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +734,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -415,28 +744,39 @@
 		};
 		AB8B57861D4C636D00624890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C111985B60DC7581369DBDAF /* Pods-BoBaoGe.perject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/BoBaoGe.perject/PCH.pch";
 				INFOPLIST_FILE = BoBaoGe.perject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Debug;
 		};
 		AB8B57871D4C636D00624890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BD1C00E2E473D6F9EFC87A /* Pods-BoBaoGe.perject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/BoBaoGe.perject/PCH.pch";
 				INFOPLIST_FILE = BoBaoGe.perject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DC.BoBaoGe-perject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Release;
 		};
 		AB8B57891D4C636D00624890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868A7DCD602F543FECAC4A32 /* Pods-BoBaoGe.perjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BoBaoGe.perjectTests/Info.plist;
@@ -449,6 +789,7 @@
 		};
 		AB8B578A1D4C636D00624890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C8FC2DA4CE8358082AB24F /* Pods-BoBaoGe.perjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BoBaoGe.perjectTests/Info.plist;
@@ -461,6 +802,7 @@
 		};
 		AB8B578C1D4C636D00624890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DDCAA025DE47698CBD886A /* Pods-BoBaoGe.perjectUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BoBaoGe.perjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -473,6 +815,7 @@
 		};
 		AB8B578D1D4C636D00624890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCC58899702E937B367B929 /* Pods-BoBaoGe.perjectUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BoBaoGe.perjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -502,6 +845,7 @@
 				AB8B57871D4C636D00624890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB8B57881D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +854,7 @@
 				AB8B578A1D4C636D00624890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB8B578B1D4C636D00624890 /* Build configuration list for PBXNativeTarget "BoBaoGe.perjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +863,7 @@
 				AB8B578D1D4C636D00624890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
